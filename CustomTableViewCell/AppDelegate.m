@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TableView.h"
+
 
 @implementation AppDelegate
 
@@ -14,6 +16,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    TableView *tableView = [[TableView alloc] init];
+    UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:tableView];
+    [[self window] setRootViewController:navCon];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

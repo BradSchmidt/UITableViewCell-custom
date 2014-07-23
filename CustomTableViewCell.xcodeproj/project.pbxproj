@@ -19,6 +19,12 @@
 		A2A624CC197D7E7F00BF00B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A624B4197D7E7F00BF00B7 /* UIKit.framework */; };
 		A2A624D4197D7E7F00BF00B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2A624D2197D7E7F00BF00B7 /* InfoPlist.strings */; };
 		A2A624D6197D7E7F00BF00B7 /* CustomTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A624D5197D7E7F00BF00B7 /* CustomTableViewCellTests.m */; };
+		A2A624E4197D7FAB00BF00B7 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A624E3197D7FAB00BF00B7 /* TableView.m */; };
+		A2A624E7197D80FF00BF00B7 /* CustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A624E6197D80FF00BF00B7 /* CustomCellTableViewCell.m */; };
+		A2A624EA197D85FB00BF00B7 /* DetailedInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A624E9197D85FB00BF00B7 /* DetailedInformation.m */; };
+		A2A624ED197D86B800BF00B7 /* informationLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A624EC197D86B800BF00B7 /* informationLibrary.m */; };
+		A2A689FB1980091900A86521 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A2A689FA1980091900A86521 /* 1.png */; };
+		A2A689FD1980092000A86521 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A2A689FC1980092000A86521 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,16 @@
 		A2A624D1197D7E7F00BF00B7 /* CustomTableViewCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTableViewCellTests-Info.plist"; sourceTree = "<group>"; };
 		A2A624D3197D7E7F00BF00B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2A624D5197D7E7F00BF00B7 /* CustomTableViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCellTests.m; sourceTree = "<group>"; };
+		A2A624E2197D7FAB00BF00B7 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableView.h; path = ../TableView.h; sourceTree = "<group>"; };
+		A2A624E3197D7FAB00BF00B7 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableView.m; path = ../TableView.m; sourceTree = "<group>"; };
+		A2A624E5197D80FF00BF00B7 /* CustomCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewCell.h; sourceTree = "<group>"; };
+		A2A624E6197D80FF00BF00B7 /* CustomCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewCell.m; sourceTree = "<group>"; };
+		A2A624E8197D85FB00BF00B7 /* DetailedInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedInformation.h; sourceTree = "<group>"; };
+		A2A624E9197D85FB00BF00B7 /* DetailedInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedInformation.m; sourceTree = "<group>"; };
+		A2A624EB197D86B800BF00B7 /* informationLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = informationLibrary.h; sourceTree = "<group>"; };
+		A2A624EC197D86B800BF00B7 /* informationLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = informationLibrary.m; sourceTree = "<group>"; };
+		A2A689FA1980091900A86521 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../1.png; sourceTree = "<group>"; };
+		A2A689FC1980092000A86521 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,8 @@
 				A2A624CF197D7E7F00BF00B7 /* CustomTableViewCellTests */,
 				A2A624AF197D7E7E00BF00B7 /* Frameworks */,
 				A2A624AE197D7E7E00BF00B7 /* Products */,
+				A2A689FA1980091900A86521 /* 1.png */,
+				A2A689FC1980092000A86521 /* 2.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +127,14 @@
 			children = (
 				A2A624BF197D7E7F00BF00B7 /* AppDelegate.h */,
 				A2A624C0197D7E7F00BF00B7 /* AppDelegate.m */,
+				A2A624E2197D7FAB00BF00B7 /* TableView.h */,
+				A2A624E3197D7FAB00BF00B7 /* TableView.m */,
+				A2A624E8197D85FB00BF00B7 /* DetailedInformation.h */,
+				A2A624E9197D85FB00BF00B7 /* DetailedInformation.m */,
+				A2A624EB197D86B800BF00B7 /* informationLibrary.h */,
+				A2A624EC197D86B800BF00B7 /* informationLibrary.m */,
+				A2A624E5197D80FF00BF00B7 /* CustomCellTableViewCell.h */,
+				A2A624E6197D80FF00BF00B7 /* CustomCellTableViewCell.m */,
 				A2A624C2197D7E7F00BF00B7 /* Images.xcassets */,
 				A2A624B7197D7E7F00BF00B7 /* Supporting Files */,
 			);
@@ -219,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A689FB1980091900A86521 /* 1.png in Resources */,
 				A2A624BB197D7E7F00BF00B7 /* InfoPlist.strings in Resources */,
+				A2A689FD1980092000A86521 /* 2.png in Resources */,
 				A2A624C3197D7E7F00BF00B7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A624ED197D86B800BF00B7 /* informationLibrary.m in Sources */,
+				A2A624EA197D85FB00BF00B7 /* DetailedInformation.m in Sources */,
+				A2A624E4197D7FAB00BF00B7 /* TableView.m in Sources */,
 				A2A624C1197D7E7F00BF00B7 /* AppDelegate.m in Sources */,
+				A2A624E7197D80FF00BF00B7 /* CustomCellTableViewCell.m in Sources */,
 				A2A624BD197D7E7F00BF00B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +469,7 @@
 				A2A624DB197D7E7F00BF00B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2A624DC197D7E7F00BF00B7 /* Build configuration list for PBXNativeTarget "CustomTableViewCellTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +478,7 @@
 				A2A624DE197D7E7F00BF00B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
